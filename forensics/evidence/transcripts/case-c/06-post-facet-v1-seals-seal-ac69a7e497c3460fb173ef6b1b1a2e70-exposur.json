@@ -1,0 +1,43 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "method": "POST",
+  "path": "/facet/v1/seals/seal_ac69a7e497c3460fb173ef6b1b1a2e70/exposures",
+  "request_body": {
+    "height": 96,
+    "key": "case-c-exposure",
+    "samples": 2,
+    "width": 96
+  },
+  "response_json": {
+    "allocation": {
+      "active": 1,
+      "exposure_id": "exposure_93e7ec6e1c1c456f98159f2fc3d1ab1c",
+      "generation": 1,
+      "release_reason": null,
+      "released": null,
+      "reserved": 1794837101.4479334,
+      "units": 36864
+    },
+    "attempt": 0,
+    "cancel_requested": 0,
+    "created": 1794837101.4479928,
+    "dedup_key": "case-c-exposure",
+    "error": null,
+    "id": "exposure_93e7ec6e1c1c456f98159f2fc3d1ab1c",
+    "lease_until": null,
+    "plate_id": null,
+    "request": {
+      "height": 96,
+      "renderer": "facet-raster-1",
+      "samples": 2,
+      "width": 96
+    },
+    "request_hash": "30368df688e6233bc810ea622812d8da34348505ebe79c2616e032086698b6fe",
+    "seal_id": "seal_ac69a7e497c3460fb173ef6b1b1a2e70",
+    "state": "queued",
+    "token": null,
+    "updated": 1794837101.4479928
+  },
+  "seq": 6,
+  "status": 200
+}

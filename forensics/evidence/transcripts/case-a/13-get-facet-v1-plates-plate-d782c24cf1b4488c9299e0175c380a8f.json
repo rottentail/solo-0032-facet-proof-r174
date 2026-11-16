@@ -1,0 +1,70 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "method": "GET",
+  "path": "/facet/v1/plates/plate_d782c24cf1b4488c9299e0175c380a8f",
+  "request_body": null,
+  "response_json": {
+    "created": 1794837101.0235116,
+    "exposure_id": "exposure_e7b09c984c524bb09c80b254a69481d4",
+    "id": "plate_d782c24cf1b4488c9299e0175c380a8f",
+    "payload": {
+      "format": "facet-plate-1",
+      "height": 96,
+      "lens_hash": "432a71b1d1dc6b0c6299a9f53b3bc1b6a2a27c3272a2dc5e018f6a10d51408ba",
+      "objects": {
+        "1": {
+          "key": "wing",
+          "mesh_id": "mesh_d28737ba1fb641b4a89c99cb616435b1",
+          "pigment_id": "pigment_b24b3aa9386b43bfaa414608dee60089"
+        }
+      },
+      "passes": {
+        "color.png": {
+          "sha256": "95e19669c6c01ed51cfac34e00b8623f06f112d866b5c6c638c12e185bc3ed6a",
+          "size": 676
+        },
+        "color.rgb": {
+          "sha256": "897a5469477ea6070d74243af7c477c8e9cb8335ab40d447778b38ad65af9175",
+          "size": 27648
+        },
+        "depth.f32": {
+          "sha256": "59b274585d5b4a0890facb1c5a59113ee6f070a89c3f4c8989734cdaa469d31f",
+          "size": 36864
+        },
+        "depth.png": {
+          "sha256": "4d3c6356872d665270a3a01130d822050c344273bc93a79e803e8fceb6655b53",
+          "size": 554
+        },
+        "object.png": {
+          "sha256": "433d6e289fec3f003cbad1f114b9cd7641a724fc27de62265e10000fec8a5bb2",
+          "size": 217
+        },
+        "object.u32": {
+          "sha256": "c30b6ffb6314d52e4d0382cc13db741ba13a0cbd9c9a9aeb7548612d536bfeb9",
+          "size": 36864
+        }
+      },
+      "request": {
+        "height": 96,
+        "renderer": "facet-raster-1",
+        "samples": 2,
+        "width": 96
+      },
+      "seal_hash": "20c50e0fbf24c51ffb3728ce46ad64d6e5a3eb6d7a14653202ab24bdae0fa65c",
+      "seal_id": "seal_e25e40e338cc44fcb9728637565ab2b8",
+      "statistics": {
+        "background_depth": "positive_infinity",
+        "byte_order": "little",
+        "covered_pixels": 1716,
+        "depth_units": "camera_forward_distance",
+        "fragments": 6679,
+        "triangles": 6
+      },
+      "visual_hash": "6cab8e3985cef44c1ee79bde629a9138a999c265989a39c2a7a28d12a5a46c1d",
+      "width": 96
+    },
+    "state": "quarantined"
+  },
+  "seq": 13,
+  "status": 200
+}

@@ -1,0 +1,402 @@
+{
+  "check_totals": {
+    "fail": 0,
+    "pass": 16,
+    "warn": 0
+  },
+  "evidence_file_count": 65,
+  "generated_at": "2026-11-16T14:00:52.489055+00:00",
+  "items": [
+    {
+      "origin": "service export via GET /plates/{id}/bundle",
+      "path": "evidence/bundles/case-a-original/plate-bundle.zip",
+      "sha256": "7f84778ddf9ce7a66347a339d43cff523c5ecd1aebde247204badb6275ce5570",
+      "size_bytes": 10697
+    },
+    {
+      "origin": "service export via GET /plates/{id}/bundle",
+      "path": "evidence/bundles/case-b-bright/plate-bundle.zip",
+      "sha256": "257777c9487a2a4714fdeedb500d7446864099623af7cb32da1a96d07794ff01",
+      "size_bytes": 10669
+    },
+    {
+      "origin": "service export via GET /plates/{id}/bundle",
+      "path": "evidence/bundles/case-b-normal/plate-bundle.zip",
+      "sha256": "08a700a91b8a5c028dad9f04f78203c2bd1a4abc01e7ce9070da631e7475958b",
+      "size_bytes": 10697
+    },
+    {
+      "origin": "service export via GET /plates/{id}/bundle",
+      "path": "evidence/bundles/case-c-original/plate-bundle.zip",
+      "sha256": "66e5071df8f65db82cc4be23fbd33ffcd6b4305ea1d94e72d19150d0e13a08f4",
+      "size_bytes": 10696
+    },
+    {
+      "origin": "controlled tamper: pixels replaced, self-declared hashes left stale",
+      "path": "evidence/bundles/case-c-tampered-naive/plate-bundle.zip",
+      "sha256": "971f4e08e31a2ca384cf1e1c27e052172f5cd6a8037e70edad15e865f21dff95",
+      "size_bytes": 10685
+    },
+    {
+      "origin": "controlled tamper: pixels replaced and all bundle-local hashes recomputed",
+      "path": "evidence/bundles/case-c-tampered-rehashed/plate-bundle.zip",
+      "sha256": "89e88c76b55522705c28d807fae59a96cfb71e5cc714b2f15557c64bd8b07ec0",
+      "size_bytes": 10690
+    },
+    {
+      "origin": "service color.png bytes captured independently of the bundle",
+      "path": "evidence/colors/case-a-color.png",
+      "sha256": "95e19669c6c01ed51cfac34e00b8623f06f112d866b5c6c638c12e185bc3ed6a",
+      "size_bytes": 676
+    },
+    {
+      "origin": "service color.png bytes captured independently of the bundle",
+      "path": "evidence/colors/case-b-bright-color.png",
+      "sha256": "7267db3125ff17837922bbfbf2ea6c08305f951adb279f35b05d7bf04e27a37d",
+      "size_bytes": 669
+    },
+    {
+      "origin": "service color.png bytes captured independently of the bundle",
+      "path": "evidence/colors/case-b-normal-color.png",
+      "sha256": "95e19669c6c01ed51cfac34e00b8623f06f112d866b5c6c638c12e185bc3ed6a",
+      "size_bytes": 676
+    },
+    {
+      "origin": "service color.png bytes captured independently of the bundle",
+      "path": "evidence/colors/case-c-original-color.png",
+      "sha256": "95e19669c6c01ed51cfac34e00b8623f06f112d866b5c6c638c12e185bc3ed6a",
+      "size_bytes": 676
+    },
+    {
+      "origin": "generation facts (ids and recorded hashes) used as the comparison baseline",
+      "path": "evidence/state/case-a-facts.json",
+      "sha256": "f0c7b1aea1bb6eeb44fb5c1ae6bf82dcd55ff0fdde8905dbec0256c0aa71ab2b",
+      "size_bytes": 565
+    },
+    {
+      "origin": "generation facts (ids and recorded hashes) used as the comparison baseline",
+      "path": "evidence/state/case-a.done",
+      "sha256": "d117fa006ba9208500b2930ce69cbde436c647afa917cb7396a9bc9111a46dd2",
+      "size_bytes": 5
+    },
+    {
+      "origin": "generation facts (ids and recorded hashes) used as the comparison baseline",
+      "path": "evidence/state/case-b-facts.json",
+      "sha256": "3e88de0a022ff8a21fd1a4185faefb11dfb1c1f1e9205896f94e4380ab07d27d",
+      "size_bytes": 1759
+    },
+    {
+      "origin": "generation facts (ids and recorded hashes) used as the comparison baseline",
+      "path": "evidence/state/case-b.done",
+      "sha256": "d117fa006ba9208500b2930ce69cbde436c647afa917cb7396a9bc9111a46dd2",
+      "size_bytes": 5
+    },
+    {
+      "origin": "generation facts (ids and recorded hashes) used as the comparison baseline",
+      "path": "evidence/state/case-c-facts.json",
+      "sha256": "60c8bee1327eca4e7c9f6aadd7256cef89e8bd814f049914db4af0c68bd9e429",
+      "size_bytes": 433
+    },
+    {
+      "origin": "generation facts (ids and recorded hashes) used as the comparison baseline",
+      "path": "evidence/state/case-c.done",
+      "sha256": "d117fa006ba9208500b2930ce69cbde436c647afa917cb7396a9bc9111a46dd2",
+      "size_bytes": 5
+    },
+    {
+      "origin": "full HTTP request/response transcript captured during generation",
+      "path": "evidence/transcripts/case-a/01-post-facet-v1-meshes.json",
+      "sha256": "7b8507fc0d03abc32a1f804eb5d7e329f880436c84e178ba98df7063eb5fd48f",
+      "size_bytes": 1946
+    },
+    {
+      "origin": "full HTTP request/response transcript captured during generation",
+      "path": "evidence/transcripts/case-a/02-post-facet-v1-pigments.json",
+      "sha256": "8abd0aa176ea7bf9d4d1b32f0c78f779c2d711d07745212879bf62fde2e065e1",
+      "size_bytes": 830
+    },
+    {
+      "origin": "full HTTP request/response transcript captured during generation",
+      "path": "evidence/transcripts/case-a/03-post-facet-v1-assemblies.json",
+      "sha256": "7125defec426b2d6038d15e5cae8621eedef04bbf97e94afedf14e04edd6b405",
+      "size_bytes": 1748
+    },
+    {
+      "origin": "full HTTP request/response transcript captured during generation",
+      "path": "evidence/transcripts/case-a/04-put-facet-v1-assemblies-assembly-9b95e1e12f0e4ee98de6bed5ccf4d7b.json",
+      "sha256": "a6911da742a10d7a0d1e239be5bcc0dac3a3d2ee905f01e2613a26413c9d8dab",
+      "size_bytes": 3046
+    },
+    {
+      "origin": "full HTTP request/response transcript captured during generation",
+      "path": "evidence/transcripts/case-a/05-post-facet-v1-assemblies-assembly-9b95e1e12f0e4ee98de6bed5ccf4d7b.json",
+      "sha256": "89e21e452880c7968bc7b9717d46460683e998677f86dab09a581a3ef6429912",
+      "size_bytes": 4747
+    },
+    {
+      "origin": "full HTTP request/response transcript captured during generation",
+      "path": "evidence/transcripts/case-a/06-post-facet-v1-seals-seal-e25e40e338cc44fcb9728637565ab2b8-exposur.json",
+      "sha256": "d1f76da9ade61a12b99a9d53d76440b3ba31b6ae89923bbaff34415d5d757921",
+      "size_bytes": 1136
+    },
+    {
+      "origin": "full HTTP request/response transcript captured during generation",
+      "path": "evidence/transcripts/case-a/07-post-facet-v1-worker-step.json",
+      "sha256": "6317403201b9c100175f827db44b9d661bb9d949c8a613a4c59770332f7849ae",
+      "size_bytes": 2488
+    },
+    {
+      "origin": "full HTTP request/response transcript captured during generation",
+      "path": "evidence/transcripts/case-a/08-get-facet-v1-plates-plate-d782c24cf1b4488c9299e0175c380a8f-passe.json",
+      "sha256": "a8e49275d453b5879a1e25c81150be12cd685a2d508da3b40deaf9f36d754453",
+      "size_bytes": 317
+    },
+    {
+      "origin": "full HTTP request/response transcript captured during generation",
+      "path": "evidence/transcripts/case-a/09-post-facet-v1-plates-plate-d782c24cf1b4488c9299e0175c380a8f-proof.json",
+      "sha256": "306e143d2e595830b950e6805c7a08ea06392418d562916a87271acc23635089",
+      "size_bytes": 684
+    },
+    {
+      "origin": "full HTTP request/response transcript captured during generation",
+      "path": "evidence/transcripts/case-a/10-post-facet-v1-proofs-proof-14ea0b76d8354c59b947cceaf2596772-decid.json",
+      "sha256": "fa16f2eab243c8bd69cbaa51dff82d7e7a3415772af8068ab9177f1cc55b7b79",
+      "size_bytes": 771
+    },
+    {
+      "origin": "full HTTP request/response transcript captured during generation",
+      "path": "evidence/transcripts/case-a/11-get-facet-v1-plates-plate-d782c24cf1b4488c9299e0175c380a8f-bundl.json",
+      "sha256": "88aa62e2dd0b7da093b481388cf3fb6963ec52a2b2ddb78d0bee8c5c43f97584",
+      "size_bytes": 378
+    },
+    {
+      "origin": "full HTTP request/response transcript captured during generation",
+      "path": "evidence/transcripts/case-a/12-post-facet-v1-plates-plate-d782c24cf1b4488c9299e0175c380a8f-quara.json",
+      "sha256": "bca89eab07c6e0e573648681ca066ae363c0ec1aba57d2ce832dc3c8b4653472",
+      "size_bytes": 2375
+    },
+    {
+      "origin": "full HTTP request/response transcript captured during generation",
+      "path": "evidence/transcripts/case-a/13-get-facet-v1-plates-plate-d782c24cf1b4488c9299e0175c380a8f.json",
+      "sha256": "07d3c5decd911e657c4e8b84392e2d6f20c5d19472dcbd63f6b5f5707bf72ea1",
+      "size_bytes": 2297
+    },
+    {
+      "origin": "full HTTP request/response transcript captured during generation",
+      "path": "evidence/transcripts/case-a/14-get-facet-v1-proofs-proof-14ea0b76d8354c59b947cceaf2596772.json",
+      "sha256": "cdb589ab2f7359f9045b0c9b44d314ae6a5cd9d18fdbff07b328f4ef1435d89d",
+      "size_bytes": 689
+    },
+    {
+      "origin": "full HTTP request/response transcript captured during generation",
+      "path": "evidence/transcripts/case-a/plate-bundle.zip",
+      "sha256": "7f84778ddf9ce7a66347a339d43cff523c5ecd1aebde247204badb6275ce5570",
+      "size_bytes": 10697
+    },
+    {
+      "origin": "full HTTP request/response transcript captured during generation",
+      "path": "evidence/transcripts/case-b/01-post-facet-v1-meshes.json",
+      "sha256": "583413a3aefddc463cb5cb411ab99fcc625986695c258597415afa70c0d1b272",
+      "size_bytes": 1948
+    },
+    {
+      "origin": "full HTTP request/response transcript captured during generation",
+      "path": "evidence/transcripts/case-b/02-post-facet-v1-pigments.json",
+      "sha256": "a89d423d6bc10fcf696887c53b82d5033135f3696726d0ed19cd6ce6217880ac",
+      "size_bytes": 824
+    },
+    {
+      "origin": "full HTTP request/response transcript captured during generation",
+      "path": "evidence/transcripts/case-b/03-post-facet-v1-assemblies.json",
+      "sha256": "c9ba1f187fb1a92ea6d5dbc072eb4f8d69d79a654032adeadf596b39dba4fe7a",
+      "size_bytes": 1742
+    },
+    {
+      "origin": "full HTTP request/response transcript captured during generation",
+      "path": "evidence/transcripts/case-b/04-put-facet-v1-assemblies-assembly-b1aa50c2ce4a47b48d3baf96ddffc25.json",
+      "sha256": "499e351ee220d9a448be73392752b0aca801f325141afeca6b88755365e704ca",
+      "size_bytes": 3043
+    },
+    {
+      "origin": "full HTTP request/response transcript captured during generation",
+      "path": "evidence/transcripts/case-b/04-put-facet-v1-assemblies-assembly-e735655283fd4a0ea3e7d63927ce63e.json",
+      "sha256": "dda6fb9d681b39a6e1cebb3b5b2fc9917154b70495b5a118d6a29d0e7b9bbe7c",
+      "size_bytes": 3042
+    },
+    {
+      "origin": "full HTTP request/response transcript captured during generation",
+      "path": "evidence/transcripts/case-b/05-post-facet-v1-assemblies-assembly-b1aa50c2ce4a47b48d3baf96ddffc25.json",
+      "sha256": "2f2e42f292f894350ea7336061cc119c028bd1c9f1240f090c2e571a80d5f134",
+      "size_bytes": 4743
+    },
+    {
+      "origin": "full HTTP request/response transcript captured during generation",
+      "path": "evidence/transcripts/case-b/05-post-facet-v1-assemblies-assembly-e735655283fd4a0ea3e7d63927ce63e.json",
+      "sha256": "8c3c5e9b8c9f6ab1e7b2fc53e00adc158e302bafe9a7d06c194b520c95e8c687",
+      "size_bytes": 4743
+    },
+    {
+      "origin": "full HTTP request/response transcript captured during generation",
+      "path": "evidence/transcripts/case-b/06-post-facet-v1-meshes.json",
+      "sha256": "84cae955001e2bcb44dbf14da40d452eea2f0b62f70206d7ee5f3361c37c12ec",
+      "size_bytes": 1948
+    },
+    {
+      "origin": "full HTTP request/response transcript captured during generation",
+      "path": "evidence/transcripts/case-b/07-post-facet-v1-pigments.json",
+      "sha256": "fe77ef12068c19a489dacb85f9872a9eb90ed54e569a52974dd86f892dc1d08e",
+      "size_bytes": 820
+    },
+    {
+      "origin": "full HTTP request/response transcript captured during generation",
+      "path": "evidence/transcripts/case-b/08-post-facet-v1-assemblies.json",
+      "sha256": "f12466917cf59cbec05964d607af2e4e912f4a78fbf78e837f6aa7e9cbab322e",
+      "size_bytes": 1738
+    },
+    {
+      "origin": "full HTTP request/response transcript captured during generation",
+      "path": "evidence/transcripts/case-b/09-put-facet-v1-assemblies-assembly-3531957e1cc94b58be8b409af8fed7b.json",
+      "sha256": "b575396cc12d0c9f7dcce494eba50eb9badcf7698b6dde01831c535e519ee392",
+      "size_bytes": 3040
+    },
+    {
+      "origin": "full HTTP request/response transcript captured during generation",
+      "path": "evidence/transcripts/case-b/09-put-facet-v1-assemblies-assembly-3b5e341b28964829a3de89bfb47d671.json",
+      "sha256": "30649ccb3c72367e334f8f4fe563dea1fde9e67b790fe6427fb8a606ad669844",
+      "size_bytes": 3040
+    },
+    {
+      "origin": "full HTTP request/response transcript captured during generation",
+      "path": "evidence/transcripts/case-b/10-post-facet-v1-assemblies-assembly-3531957e1cc94b58be8b409af8fed7b.json",
+      "sha256": "21c681a5ee5c7e2bc46f1821819541dbfb2690963c1290150599769b614849bb",
+      "size_bytes": 4740
+    },
+    {
+      "origin": "full HTTP request/response transcript captured during generation",
+      "path": "evidence/transcripts/case-b/10-post-facet-v1-assemblies-assembly-3b5e341b28964829a3de89bfb47d671.json",
+      "sha256": "0b716ef150b052fc3ce270b35167d1d015b26afeee5bcee119a638e66a9accd4",
+      "size_bytes": 4740
+    },
+    {
+      "origin": "full HTTP request/response transcript captured during generation",
+      "path": "evidence/transcripts/case-b/11-post-facet-v1-seals-seal-13d3c2de8e074853909e394d39df3e43-exposur.json",
+      "sha256": "2ecc88816bb185a16d80e80d5d2ebae1e883c1b159110ffd1e4fc904dc293309",
+      "size_bytes": 1155
+    },
+    {
+      "origin": "full HTTP request/response transcript captured during generation",
+      "path": "evidence/transcripts/case-b/12-post-facet-v1-worker-step.json",
+      "sha256": "dbe817efc2c831e858d2b1e91c02b67218c41037200f774c3be6e21a01466d7c",
+      "size_bytes": 2489
+    },
+    {
+      "origin": "full HTTP request/response transcript captured during generation",
+      "path": "evidence/transcripts/case-b/13-post-facet-v1-seals-seal-223fb5f3d7f44cb1887e7ebfe1a2e9f7-exposur.json",
+      "sha256": "09f3565c7452c5c5f556ae524da3fb6e6232770749730d8fea2d05c6b74845c6",
+      "size_bytes": 1157
+    },
+    {
+      "origin": "full HTTP request/response transcript captured during generation",
+      "path": "evidence/transcripts/case-b/14-post-facet-v1-worker-step.json",
+      "sha256": "74d2df57e93c4e90b96f51ea4a51688021dc1ce485604ee9dd36b7df9cc66def",
+      "size_bytes": 2488
+    },
+    {
+      "origin": "full HTTP request/response transcript captured during generation",
+      "path": "evidence/transcripts/case-b/15-get-facet-v1-plates-plate-f210828e4ce048f5a8acb6472d420a89-passe.json",
+      "sha256": "2a8963bdad19e92c6c6b052ff14772cfd6880f6a1ddf256a69bc387554c8287d",
+      "size_bytes": 318
+    },
+    {
+      "origin": "full HTTP request/response transcript captured during generation",
+      "path": "evidence/transcripts/case-b/16-get-facet-v1-plates-plate-43e6d57cffb24be5a7c2ee821f2cde05-passe.json",
+      "sha256": "8ce9057eccb737ac79c2279c2687c6b0b11ed6075bcf7469aa02958dd09a51dd",
+      "size_bytes": 318
+    },
+    {
+      "origin": "full HTTP request/response transcript captured during generation",
+      "path": "evidence/transcripts/case-b/17-get-facet-v1-plates-plate-f210828e4ce048f5a8acb6472d420a89-bundl.json",
+      "sha256": "46af8451b0ec2150b018b8cb6c4be837d541b4890adb5b2ea25770fcadfb7654",
+      "size_bytes": 378
+    },
+    {
+      "origin": "full HTTP request/response transcript captured during generation",
+      "path": "evidence/transcripts/case-b/18-get-facet-v1-plates-plate-43e6d57cffb24be5a7c2ee821f2cde05-bundl.json",
+      "sha256": "d71b402db35da30625cddd9b81c58e8db3bd0e84b7d3068d7b226cdb8c758bd2",
+      "size_bytes": 378
+    },
+    {
+      "origin": "full HTTP request/response transcript captured during generation",
+      "path": "evidence/transcripts/case-b/19-post-facet-v1-comparisons.json",
+      "sha256": "02dac1753019d98084571cb47bcda92a4a643a71b1160793c50e949551c1465c",
+      "size_bytes": 1046
+    },
+    {
+      "origin": "full HTTP request/response transcript captured during generation",
+      "path": "evidence/transcripts/case-b/plate-bundle.zip",
+      "sha256": "257777c9487a2a4714fdeedb500d7446864099623af7cb32da1a96d07794ff01",
+      "size_bytes": 10669
+    },
+    {
+      "origin": "full HTTP request/response transcript captured during generation",
+      "path": "evidence/transcripts/case-c/01-post-facet-v1-meshes.json",
+      "sha256": "7ff0c28f787901e242a6ff40c716ca9c7ef40ff081d5d9c59dca0b2cbae82a63",
+      "size_bytes": 1948
+    },
+    {
+      "origin": "full HTTP request/response transcript captured during generation",
+      "path": "evidence/transcripts/case-c/02-post-facet-v1-pigments.json",
+      "sha256": "29a988b65b4b4712579ffcd3f582b880e540cd449a312d2103ee3bae45ba44a3",
+      "size_bytes": 824
+    },
+    {
+      "origin": "full HTTP request/response transcript captured during generation",
+      "path": "evidence/transcripts/case-c/03-post-facet-v1-assemblies.json",
+      "sha256": "55f2c214b7aab95a70ac927a16809d3149d37c5a6e2fe21ea63af94c835ad50b",
+      "size_bytes": 1744
+    },
+    {
+      "origin": "full HTTP request/response transcript captured during generation",
+      "path": "evidence/transcripts/case-c/04-put-facet-v1-assemblies-assembly-376be8c51ea04ff18c1a02dd29ef911.json",
+      "sha256": "ee28a106cd92ecffc8452a6b3343eefc6902c00ea3771267d6b43735b8f8d61b",
+      "size_bytes": 3044
+    },
+    {
+      "origin": "full HTTP request/response transcript captured during generation",
+      "path": "evidence/transcripts/case-c/05-post-facet-v1-assemblies-assembly-376be8c51ea04ff18c1a02dd29ef911.json",
+      "sha256": "2e21f6b899f09d4ce2d8d8aebbcee13d1a1572adfcc48c05a0f480b5bdd85e5f",
+      "size_bytes": 4745
+    },
+    {
+      "origin": "full HTTP request/response transcript captured during generation",
+      "path": "evidence/transcripts/case-c/06-post-facet-v1-seals-seal-ac69a7e497c3460fb173ef6b1b1a2e70-exposur.json",
+      "sha256": "cfdb53b8f4060275f7266a15d213e5692c6ef9b3784c09a9cb60dbcb2a33556c",
+      "size_bytes": 1138
+    },
+    {
+      "origin": "full HTTP request/response transcript captured during generation",
+      "path": "evidence/transcripts/case-c/07-post-facet-v1-worker-step.json",
+      "sha256": "10e2f5e15fd709712db297809ad286faa8e15df91bca9a27ef5b3aa4ef7d3061",
+      "size_bytes": 2488
+    },
+    {
+      "origin": "full HTTP request/response transcript captured during generation",
+      "path": "evidence/transcripts/case-c/08-get-facet-v1-plates-plate-da85597eb4f24169a570acc19a852226-passe.json",
+      "sha256": "9258853b041743cbafc8af5ac420db95a367f767c1869003f75c379f89bb45a2",
+      "size_bytes": 317
+    },
+    {
+      "origin": "full HTTP request/response transcript captured during generation",
+      "path": "evidence/transcripts/case-c/09-get-facet-v1-plates-plate-da85597eb4f24169a570acc19a852226-bundl.json",
+      "sha256": "6f52995eea19295ebdee3710e4397a36d9bcb51e4c638b9df1c1793748bbf0b0",
+      "size_bytes": 377
+    },
+    {
+      "origin": "full HTTP request/response transcript captured during generation",
+      "path": "evidence/transcripts/case-c/plate-bundle.zip",
+      "sha256": "66e5071df8f65db82cc4be23fbd33ffcd6b4305ea1d94e72d19150d0e13a08f4",
+      "size_bytes": 10696
+    }
+  ],
+  "principle": "Original service data and exported bundles are write-once evidence; tampering only ever produces new files in separate directories. Hashes below are the independent re-computation used for custody, not values copied from bundle metadata."
+}

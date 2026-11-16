@@ -1,0 +1,11 @@
+{
+  "bundle": "evidence/bundles/case-a-original/plate-bundle.zip",
+  "bundle_sha256": "7f84778ddf9ce7a66347a339d43cff523c5ecd1aebde247204badb6275ce5570",
+  "plate_id": "plate_d782c24cf1b4488c9299e0175c380a8f",
+  "plate_state_after": "quarantined",
+  "proof_id": "proof_14ea0b76d8354c59b947cceaf2596772",
+  "proof_state_after": "invalidated",
+  "seal_hash": "20c50e0fbf24c51ffb3728ce46ad64d6e5a3eb6d7a14653202ab24bdae0fa65c",
+  "seal_id": "seal_e25e40e338cc44fcb9728637565ab2b8",
+  "visual_hash": "6cab8e3985cef44c1ee79bde629a9138a999c265989a39c2a7a28d12a5a46c1d"
+}

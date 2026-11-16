@@ -1,0 +1,23 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "method": "POST",
+  "path": "/facet/v1/proofs/proof_14ea0b76d8354c59b947cceaf2596772/decide",
+  "request_body": {
+    "note": "channels consistent, review accepted",
+    "state": "accepted"
+  },
+  "response_json": {
+    "created": 1794837101.0307825,
+    "id": "proof_14ea0b76d8354c59b947cceaf2596772",
+    "payload": {
+      "decision_note": "channels consistent, review accepted",
+      "note": "forensic sample: pre-quarantine acceptance",
+      "seal_id": "seal_e25e40e338cc44fcb9728637565ab2b8",
+      "visual_hash": "6cab8e3985cef44c1ee79bde629a9138a999c265989a39c2a7a28d12a5a46c1d"
+    },
+    "plate_id": "plate_d782c24cf1b4488c9299e0175c380a8f",
+    "state": "accepted"
+  },
+  "seq": 10,
+  "status": 200
+}

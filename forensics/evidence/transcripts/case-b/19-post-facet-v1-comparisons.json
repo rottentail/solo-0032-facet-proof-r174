@@ -1,0 +1,34 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "method": "POST",
+  "path": "/facet/v1/comparisons",
+  "request_body": {
+    "left": "plate_f210828e4ce048f5a8acb6472d420a89",
+    "right": "plate_43e6d57cffb24be5a7c2ee821f2cde05"
+  },
+  "response_json": {
+    "created": 1794837452.1683214,
+    "id": "comparison_d90cec8a89224a4ca8de30d07bccb367",
+    "kind": "comparison",
+    "payload": {
+      "color_changed": 1716,
+      "depth_changed": 0,
+      "left": "plate_f210828e4ce048f5a8acb6472d420a89",
+      "maximum_depth_delta": 0.0,
+      "mean_channel_delta": 11.633825231481481,
+      "pass_hashes": {
+        "left": "6cab8e3985cef44c1ee79bde629a9138a999c265989a39c2a7a28d12a5a46c1d",
+        "right": "0ae184abdac5da975afdd2e8a76363f039264d7abc65c7e9340de48b2e98758d"
+      },
+      "pixels": 9216,
+      "right": "plate_43e6d57cffb24be5a7c2ee821f2cde05",
+      "silhouette_changed": 0,
+      "tolerance": 2.0
+    },
+    "revision": 1,
+    "state": "computed",
+    "updated": 1794837452.1683214
+  },
+  "seq": 19,
+  "status": 200
+}

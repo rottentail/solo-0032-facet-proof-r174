@@ -1,0 +1,149 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "method": "PUT",
+  "path": "/facet/v1/assemblies/assembly_376be8c51ea04ff18c1a02dd29ef9110",
+  "request_body": {
+    "illumination": {
+      "ambient": 0.16,
+      "lights": [
+        {
+          "direction": [
+            1,
+            2,
+            3
+          ],
+          "intensity": 0.8
+        }
+      ]
+    },
+    "placements": [
+      {
+        "key": "wing",
+        "mesh_id": "mesh_3525e798b9cc4aac8ee392df388a7172",
+        "pigment_id": "pigment_123adcf7c63c461ea25cbb6e9f20bf01",
+        "transform": {
+          "euler": [
+            0,
+            20,
+            0
+          ]
+        }
+      }
+    ],
+    "revision": 1
+  },
+  "response_json": {
+    "created": 1794837101.4337173,
+    "id": "assembly_376be8c51ea04ff18c1a02dd29ef9110",
+    "kind": "assembly",
+    "payload": {
+      "illumination": {
+        "ambient": 0.16,
+        "background": [
+          0.93,
+          0.95,
+          0.97
+        ],
+        "lights": [
+          {
+            "color": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "direction": [
+              0.2672612419124244,
+              0.5345224838248488,
+              0.8017837257372732
+            ],
+            "intensity": 0.8
+          }
+        ]
+      },
+      "lens": {
+        "eye": [
+          3.0,
+          2.0,
+          4.0
+        ],
+        "far": 100.0,
+        "forward": [
+          -0.5570860145311556,
+          -0.3713906763541037,
+          -0.7427813527082074
+        ],
+        "fov": 45.0,
+        "near": 0.1,
+        "projection": "perspective",
+        "right": [
+          0.7999999999999999,
+          0.0,
+          -0.6
+        ],
+        "span": 5.0,
+        "target": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "true_up": [
+          -0.22283440581246222,
+          0.9284766908852593,
+          -0.29711254108328294
+        ],
+        "up": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "name": "case-c-content-replaced",
+      "placements": [
+        {
+          "key": "wing",
+          "matrix": [
+            [
+              0.9396926207859084,
+              0.0,
+              0.3420201433256687,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              -0.3420201433256687,
+              0.0,
+              0.9396926207859084,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "mesh_id": "mesh_3525e798b9cc4aac8ee392df388a7172",
+          "pigment_id": "pigment_123adcf7c63c461ea25cbb6e9f20bf01",
+          "transform": {
+            "euler": [
+              0,
+              20,
+              0
+            ]
+          },
+          "visible": true
+        }
+      ]
+    },
+    "revision": 2,
+    "state": "draft",
+    "updated": 1794837101.4384177
+  },
+  "seq": 4,
+  "status": 200
+}

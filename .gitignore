@@ -3,3 +3,9 @@ __pycache__/
 .facetproof/
 facet-data/
 preview/
+
+# Forensic runtime products are reproducible via forensics/scripts/run_all.sh.
+# The authoritative deliverables under forensics/evidence and forensics/scripts
+# are intentionally tracked.
+forensics/service-data/
+forensics/work/

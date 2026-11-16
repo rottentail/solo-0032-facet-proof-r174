@@ -1,0 +1,180 @@
+{
+  "checks": [
+    {
+      "case_id": "A",
+      "check": "bundle-reader-internal-validity",
+      "detail": {
+        "error": null,
+        "exit_code": 0,
+        "trust": {
+          "external_authenticity": "Not established: an attacker can replace content and all bundle-local hashes",
+          "render_correctness": "Not established: channels are decoded and cross-checked, not independently re-rendered",
+          "review_validity": "Unknown: the ZIP contains no proof records or live quarantine state",
+          "verified": "Internal byte integrity and metadata/channel consistency only"
+        }
+      },
+      "result": "pass"
+    },
+    {
+      "case_id": "A",
+      "check": "visual-unchanged-bundle-vs-service",
+      "detail": {
+        "bundle_color_png_sha256": "95e19669c6c01ed51cfac34e00b8623f06f112d866b5c6c638c12e185bc3ed6a",
+        "http_pass_status": "409 plate_state (expected for quarantined plate)",
+        "pre_quarantine_captured_color_sha256": "95e19669c6c01ed51cfac34e00b8623f06f112d866b5c6c638c12e185bc3ed6a",
+        "service_blob_descriptor_sha256": "95e19669c6c01ed51cfac34e00b8623f06f112d866b5c6c638c12e185bc3ed6a",
+        "service_blob_on_disk_sha256": "95e19669c6c01ed51cfac34e00b8623f06f112d866b5c6c638c12e185bc3ed6a"
+      },
+      "result": "pass"
+    },
+    {
+      "case_id": "A",
+      "check": "service-review-state-invalidated",
+      "detail": {
+        "plate_state": "quarantined",
+        "proof_state": "invalidated"
+      },
+      "result": "pass"
+    },
+    {
+      "case_id": "A",
+      "check": "bundle-cannot-prove-current-review",
+      "detail": {
+        "external_authenticity_scope": "Not established: an attacker can replace content and all bundle-local hashes",
+        "review_validity_scope": "Unknown: the ZIP contains no proof records or live quarantine state",
+        "verified_scope": "Internal byte integrity and metadata/channel consistency only"
+      },
+      "result": "pass"
+    },
+    {
+      "case_id": "A",
+      "check": "event-trail-quarantine",
+      "detail": {
+        "actions": [
+          "bundle_exported",
+          "quarantined"
+        ]
+      },
+      "result": "pass"
+    },
+    {
+      "case_id": "B",
+      "check": "both-bundles-internally-valid",
+      "detail": {
+        "bright_error": null,
+        "bright_exit": 0,
+        "normal_error": null,
+        "normal_exit": 0
+      },
+      "result": "pass"
+    },
+    {
+      "case_id": "B",
+      "check": "visual-hashes-differ-despite-similar-scene",
+      "detail": {
+        "bright_color_rgb_sha256": "65818bcc2d6a904d1b027932068e4c436fa9ed1436affe5697d60bf108b9b6fd",
+        "mean_channel_byte_delta": 11.6338,
+        "normal_color_rgb_sha256": "897a5469477ea6070d74243af7c477c8e9cb8335ab40d447778b38ad65af9175"
+      },
+      "result": "pass"
+    },
+    {
+      "case_id": "B",
+      "check": "seal-hashes-differ-illumination-cause",
+      "detail": {
+        "bright_seal_hash": "5d93a288e0086d34e4920f5d42079a5327c016ff628a6d98531d8ff579b29738",
+        "normal_seal_hash": "5ad477f57bf085a63259295e266fc4659f58da7cc884162a57c1703f487a2ed7"
+      },
+      "result": "pass"
+    },
+    {
+      "case_id": "B",
+      "check": "service-records-match-bundles",
+      "detail": {
+        "bright_blob_equals_bundle": true,
+        "bright_descriptor_matches_blob": true,
+        "normal_blob_equals_bundle": true,
+        "normal_descriptor_matches_blob": true
+      },
+      "result": "pass"
+    },
+    {
+      "case_id": "B",
+      "check": "service-comparison-quantifies-exposure-delta",
+      "detail": {
+        "accepted": true,
+        "color_changed_pixels": 1716,
+        "depth_changed": 0,
+        "mean_channel_delta": 11.633825231481481,
+        "note": "shared lens allows comparison; silhouette stays fixed while color exposure differs",
+        "silhouette_changed": 0
+      },
+      "result": "pass"
+    },
+    {
+      "case_id": "C",
+      "check": "original-bundle-baseline-valid",
+      "detail": {
+        "error": null,
+        "exit_code": 0,
+        "visual_hash": "6cab8e3985cef44c1ee79bde629a9138a999c265989a39c2a7a28d12a5a46c1d"
+      },
+      "result": "pass"
+    },
+    {
+      "case_id": "C",
+      "check": "naive-tamper-rejected-by-reader",
+      "detail": {
+        "error_code": "channel_size",
+        "exit_code": 2,
+        "message": "Channel size mismatch: color.png"
+      },
+      "result": "pass"
+    },
+    {
+      "case_id": "C",
+      "check": "rehashed-tamper-passes-internal-checks",
+      "detail": {
+        "exit_code": 0,
+        "forged_visual_hash": "0c352c2e7a13d805e07be5cb9bbcd64d99eec3bf383ab4618ac396700310e60f",
+        "note": "expected: all bundle-local hashes recomputed, so internal consistency holds; this is precisely why self-declared digests cannot establish external authenticity"
+      },
+      "result": "pass"
+    },
+    {
+      "case_id": "C",
+      "check": "rehashed-visual-hash-disagrees-with-service",
+      "detail": {
+        "forged_visual_hash": "0c352c2e7a13d805e07be5cb9bbcd64d99eec3bf383ab4618ac396700310e60f",
+        "service_self_verify_valid": true,
+        "service_visual_hash": "6cab8e3985cef44c1ee79bde629a9138a999c265989a39c2a7a28d12a5a46c1d"
+      },
+      "result": "pass"
+    },
+    {
+      "case_id": "C",
+      "check": "rehashed-color-bytes-differ-from-service",
+      "detail": {
+        "forged_color_png_sha256": "2132ee6ba9fc1719f8c0eee72816dfe8ee5571fa554b66b0a4724590513b78ac",
+        "service_blob_descriptor_sha256": "95e19669c6c01ed51cfac34e00b8623f06f112d866b5c6c638c12e185bc3ed6a",
+        "service_color_png_sha256": "95e19669c6c01ed51cfac34e00b8623f06f112d866b5c6c638c12e185bc3ed6a"
+      },
+      "result": "pass"
+    },
+    {
+      "case_id": "C",
+      "check": "original-bundle-immutable-after-tampering",
+      "detail": {
+        "current_sha256": "66e5071df8f65db82cc4be23fbd33ffcd6b4305ea1d94e72d19150d0e13a08f4",
+        "recorded_sha256": "66e5071df8f65db82cc4be23fbd33ffcd6b4305ea1d94e72d19150d0e13a08f4"
+      },
+      "result": "pass"
+    }
+  ],
+  "generated_at": "2026-11-16T14:00:52.489055+00:00",
+  "totals": {
+    "fail": 0,
+    "pass": 16,
+    "warn": 0
+  }
+}

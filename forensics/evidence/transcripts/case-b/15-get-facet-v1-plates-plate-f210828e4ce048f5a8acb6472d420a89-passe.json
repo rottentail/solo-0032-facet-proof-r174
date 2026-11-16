@@ -1,0 +1,10 @@
+{
+  "content_type": "image/png",
+  "method": "GET",
+  "path": "/facet/v1/plates/plate_f210828e4ce048f5a8acb6472d420a89/passes/color.png",
+  "request_body": null,
+  "response_bytes_sha256": "95e19669c6c01ed51cfac34e00b8623f06f112d866b5c6c638c12e185bc3ed6a",
+  "response_bytes_size": 676,
+  "seq": 15,
+  "status": 200
+}

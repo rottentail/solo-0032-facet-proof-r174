@@ -1,0 +1,40 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "method": "POST",
+  "path": "/facet/v1/pigments",
+  "request_body": {
+    "color": [
+      0.12,
+      0.62,
+      0.61
+    ],
+    "name": "pigment-case-a-invalidated-review",
+    "two_sided": true
+  },
+  "response_json": {
+    "created": 1794837100.8265421,
+    "id": "pigment_b24b3aa9386b43bfaa414608dee60089",
+    "kind": "pigment",
+    "payload": {
+      "color": [
+        0.12,
+        0.62,
+        0.61
+      ],
+      "linear": [
+        0.01341174889765847,
+        0.34239163959260344,
+        0.3303437128042374
+      ],
+      "name": "pigment-case-a-invalidated-review",
+      "roughness": 0.65,
+      "specular": 0.2,
+      "two_sided": true
+    },
+    "revision": 1,
+    "state": "usable",
+    "updated": 1794837100.8265421
+  },
+  "seq": 2,
+  "status": 200
+}

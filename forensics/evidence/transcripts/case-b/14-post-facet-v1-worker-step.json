@@ -1,0 +1,74 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "method": "POST",
+  "path": "/facet/v1/worker/step",
+  "request_body": null,
+  "response_json": {
+    "exposure_id": "exposure_ac955c7bdfec4622a7ea44e97b689bca",
+    "plate": {
+      "created": 1794837452.141114,
+      "exposure_id": "exposure_ac955c7bdfec4622a7ea44e97b689bca",
+      "id": "plate_43e6d57cffb24be5a7c2ee821f2cde05",
+      "payload": {
+        "format": "facet-plate-1",
+        "height": 96,
+        "lens_hash": "432a71b1d1dc6b0c6299a9f53b3bc1b6a2a27c3272a2dc5e018f6a10d51408ba",
+        "objects": {
+          "1": {
+            "key": "wing",
+            "mesh_id": "mesh_7737e945852a4cc69d4f8be59268dabd",
+            "pigment_id": "pigment_bc26a2f3746d473fb46b2b909749d058"
+          }
+        },
+        "passes": {
+          "color.png": {
+            "sha256": "7267db3125ff17837922bbfbf2ea6c08305f951adb279f35b05d7bf04e27a37d",
+            "size": 669
+          },
+          "color.rgb": {
+            "sha256": "65818bcc2d6a904d1b027932068e4c436fa9ed1436affe5697d60bf108b9b6fd",
+            "size": 27648
+          },
+          "depth.f32": {
+            "sha256": "59b274585d5b4a0890facb1c5a59113ee6f070a89c3f4c8989734cdaa469d31f",
+            "size": 36864
+          },
+          "depth.png": {
+            "sha256": "4d3c6356872d665270a3a01130d822050c344273bc93a79e803e8fceb6655b53",
+            "size": 554
+          },
+          "object.png": {
+            "sha256": "433d6e289fec3f003cbad1f114b9cd7641a724fc27de62265e10000fec8a5bb2",
+            "size": 217
+          },
+          "object.u32": {
+            "sha256": "c30b6ffb6314d52e4d0382cc13db741ba13a0cbd9c9a9aeb7548612d536bfeb9",
+            "size": 36864
+          }
+        },
+        "request": {
+          "height": 96,
+          "renderer": "facet-raster-1",
+          "samples": 2,
+          "width": 96
+        },
+        "seal_hash": "5d93a288e0086d34e4920f5d42079a5327c016ff628a6d98531d8ff579b29738",
+        "seal_id": "seal_223fb5f3d7f44cb1887e7ebfe1a2e9f7",
+        "statistics": {
+          "background_depth": "positive_infinity",
+          "byte_order": "little",
+          "covered_pixels": 1716,
+          "depth_units": "camera_forward_distance",
+          "fragments": 6679,
+          "triangles": 6
+        },
+        "visual_hash": "0ae184abdac5da975afdd2e8a76363f039264d7abc65c7e9340de48b2e98758d",
+        "width": 96
+      },
+      "state": "ready"
+    },
+    "state": "succeeded"
+  },
+  "seq": 14,
+  "status": 200
+}

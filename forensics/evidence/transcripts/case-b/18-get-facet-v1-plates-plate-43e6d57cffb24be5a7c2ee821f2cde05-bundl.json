@@ -1,0 +1,11 @@
+{
+  "content_type": "application/zip",
+  "method": "GET",
+  "path": "/facet/v1/plates/plate_43e6d57cffb24be5a7c2ee821f2cde05/bundle",
+  "request_body": null,
+  "response_bytes_sha256": "257777c9487a2a4714fdeedb500d7446864099623af7cb32da1a96d07794ff01",
+  "response_bytes_size": 10669,
+  "saved_as": "evidence/transcripts/case-b/plate-bundle.zip",
+  "seq": 18,
+  "status": 200
+}

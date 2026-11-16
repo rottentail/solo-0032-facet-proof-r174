@@ -1,0 +1,39 @@
+{
+  "bright": {
+    "bundle": "evidence/bundles/case-b-bright/plate-bundle.zip",
+    "bundle_sha256": "257777c9487a2a4714fdeedb500d7446864099623af7cb32da1a96d07794ff01",
+    "lens_hash": "432a71b1d1dc6b0c6299a9f53b3bc1b6a2a27c3272a2dc5e018f6a10d51408ba",
+    "plate_id": "plate_43e6d57cffb24be5a7c2ee821f2cde05",
+    "seal_hash": "5d93a288e0086d34e4920f5d42079a5327c016ff628a6d98531d8ff579b29738",
+    "seal_id": "seal_223fb5f3d7f44cb1887e7ebfe1a2e9f7",
+    "visual_hash": "0ae184abdac5da975afdd2e8a76363f039264d7abc65c7e9340de48b2e98758d"
+  },
+  "normal": {
+    "bundle": "evidence/bundles/case-b-normal/plate-bundle.zip",
+    "bundle_sha256": "08a700a91b8a5c028dad9f04f78203c2bd1a4abc01e7ce9070da631e7475958b",
+    "lens_hash": "432a71b1d1dc6b0c6299a9f53b3bc1b6a2a27c3272a2dc5e018f6a10d51408ba",
+    "plate_id": "plate_f210828e4ce048f5a8acb6472d420a89",
+    "seal_hash": "5ad477f57bf085a63259295e266fc4659f58da7cc884162a57c1703f487a2ed7",
+    "seal_id": "seal_13d3c2de8e074853909e394d39df3e43",
+    "visual_hash": "6cab8e3985cef44c1ee79bde629a9138a999c265989a39c2a7a28d12a5a46c1d"
+  },
+  "service_comparison": {
+    "accepted": true,
+    "comparison_id": "comparison_d90cec8a89224a4ca8de30d07bccb367",
+    "payload": {
+      "color_changed": 1716,
+      "depth_changed": 0,
+      "left": "plate_f210828e4ce048f5a8acb6472d420a89",
+      "maximum_depth_delta": 0.0,
+      "mean_channel_delta": 11.633825231481481,
+      "pass_hashes": {
+        "left": "6cab8e3985cef44c1ee79bde629a9138a999c265989a39c2a7a28d12a5a46c1d",
+        "right": "0ae184abdac5da975afdd2e8a76363f039264d7abc65c7e9340de48b2e98758d"
+      },
+      "pixels": 9216,
+      "right": "plate_43e6d57cffb24be5a7c2ee821f2cde05",
+      "silhouette_changed": 0,
+      "tolerance": 2.0
+    }
+  }
+}

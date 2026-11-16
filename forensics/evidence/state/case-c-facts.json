@@ -1,0 +1,8 @@
+{
+  "bundle": "evidence/bundles/case-c-original/plate-bundle.zip",
+  "bundle_sha256": "66e5071df8f65db82cc4be23fbd33ffcd6b4305ea1d94e72d19150d0e13a08f4",
+  "plate_id": "plate_da85597eb4f24169a570acc19a852226",
+  "seal_hash": "bd962f4daeee863f1b2f421b98250ff6a0aa29729cd39a175cc4bef43512bb56",
+  "seal_id": "seal_ac69a7e497c3460fb173ef6b1b1a2e70",
+  "visual_hash": "6cab8e3985cef44c1ee79bde629a9138a999c265989a39c2a7a28d12a5a46c1d"
+}
